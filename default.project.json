@@ -1,0 +1,39 @@
+{
+  "name": "Soccer Game",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Data": {
+        "$path": "gamedata/shared"
+      },
+      "Modules": {
+        "$path": "modules"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+
+      "$path": "src/replicatedstorage"
+    },
+
+    "ReplicatedFirst": {
+      "$path": "replicatedfirst"
+    },
+
+    "ServerScriptService": {
+      "ServerScripts": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ClientScripts": {
+          "$path": "src/client"
+        },
+        "$path": "src/StarterPlayerScripts"
+      }
+    }
+  }
+}

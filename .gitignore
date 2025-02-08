@@ -1,0 +1,16 @@
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+/Test.lua
+
+# Packages
+/Packages
+/GameScripts
+/sourcemap.json
+
+# Added by cargo
+
+/target
+/wally.lock
+/cargo.lock

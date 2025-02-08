@@ -1,0 +1,5 @@
+std = "roblox"
+
+[config]
+unused_variable = {allow_undefined_variable = true}
+parenthese_conditions = "allow"
